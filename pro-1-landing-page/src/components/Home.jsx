@@ -12,7 +12,7 @@ const Home = () => {
     <>
       <div className="home" id="home">
         <main>
-          <h1>TechyStar</h1>
+          <h1>TechCraft </h1>
           <p>Solution to all your problems</p>
         </main>
       </div>
@@ -33,21 +33,8 @@ const Home = () => {
         <div>
           <h1>Who we are?</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            officiis hic illo quos sit commodi, aut magnam odio eligendi? Totam
-            quis officiis fugit sunt dolores nostrum tenetur iusto est odio
-            mollitia. Dolor placeat repellendus officia aspernatur dolorum
-            harum. Dolorem cumque quaerat eius qui deserunt ullam laudantium
-            quia tempore. Dignissimos esse sequi numquam est ipsam nemo,
-            voluptas vel recusandae iste aspernatur qui quasi, commodi, atque
-            ipsa dolores tempore asperiores? Dolores soluta placeat molestiae
-            aperiam, ullam officia fugiat corrupti odio, suscipit ipsum cum vel
-            nemo. Ratione quo tempore fugit quaerat! Facilis beatae impedit
-            similique maxime praesentium sunt unde necessitatibus voluptates
-            ipsa, et, numquam reiciendis eveniet? Aliquid nemo nesciunt placeat,
-            qui fuga quae repellat sunt, non natus, iure ab officia rem ipsa cum
-            sed cumque corporis voluptate quibusdam nostrum quod saepe
-          </p>
+          TechCraft Solutions is a cutting-edge IT company that specializes in web and app development, crafting digital solutions that propel businesses to new heights. Our passion lies in transforming innovative ideas into powerful, user-friendly applications that seamlessly integrate with the ever-evolving digital landscape.<br/><br/>
+          At TechCraft Solutions, we don't just build websites and apps; we sculpt digital experiences that propel your business into the future. Partner with us for innovative solutions that make a lasting impact. </p>
         </div>
       </div>
 
