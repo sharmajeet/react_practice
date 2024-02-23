@@ -1,0 +1,17 @@
+ .container-fluid-main{
+    
+    border-left : 2px solid black;
+    border-right : 2px solid black;
+}
+.carousel-inner img{
+    margin: 0;
+    height:90vh;
+    width:100%;
+}
+.card text-bg-dark,img{
+    /* margin */
+    height: 40vh;
+}
+.card-title{
+text-align: center;
+}
