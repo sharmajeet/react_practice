@@ -57,6 +57,7 @@ const Home = () => {
             fugiat quas, similique quaerat consectetur optio modi id, deleniti
             dicta.
           </Text>
+          
         </Stack>
       </Container>
     </Box>
@@ -67,7 +68,7 @@ const MyCarousel = () => (
   <Carousel
     autoPlay
     infiniteLoop
-    interval={2000}
+    interval={1000}
     showStatus={false}
     showThumbs={false}
     showArrows={false}
