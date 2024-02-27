@@ -46,16 +46,7 @@ const Home = () => {
             p={['4', '16']}
             textAlign={'center'}
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
-            veniam esse mollitia quia sapiente repellendus corporis maiores
-            dicta consequuntur tempora repellat, aliquid laudantium reiciendis
-            in? Ullam quae aut cumque eos! Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Omnis, atque laudantium pariatur odit
-            repellendus vitae esse earum! Possimus, libero eum? Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Dolor, corrupti
-            impedit! Atque fugit sapiente qui illum quam ut, aspernatur deserunt
-            fugiat quas, similique quaerat consectetur optio modi id, deleniti
-            dicta.
+          Epic Games, the 🚀 pioneers of virtual realms, offers an extraordinary spectrum of services that redefine digital entertainment 🎮. As the maestros behind the acclaimed Unreal Engine, they empower creators to sculpt immersive universes 🌌. Fortnite, their iconic battle royale, catapults players into riveting showdowns. Epic Games Store beckons with an ever-expanding galaxy of titles, fostering a vibrant gaming community. Their commitment to innovation is evident in the cutting-edge MetaHuman Creator, shaping the future of digital character creation. Dive into the metaverse with Epic Games, where every pixel pulses with creativity and every gamer discovers their epic adventure! 🌟
           </Text>
           
         </Stack>
@@ -68,7 +59,7 @@ const MyCarousel = () => (
   <Carousel
     autoPlay
     infiniteLoop
-    interval={1000}
+    interval={1500}
     showStatus={false}
     showThumbs={false}
     showArrows={false}

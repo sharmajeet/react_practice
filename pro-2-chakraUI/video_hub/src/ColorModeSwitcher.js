@@ -18,6 +18,7 @@ import { FaMoon, FaSun } from 'react-icons/fa';
       variant="ghost"
       color="current"
       marginLeft="2"
+      zIndex={'overlay'}
       onClick={toggleColorMode}
       icon={<SwitchIcon />}
       {...props}

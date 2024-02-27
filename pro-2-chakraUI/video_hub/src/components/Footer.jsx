@@ -46,9 +46,9 @@ const Footer = () => {
           borderRight={['none', '1px solid white']}
         >
           <Heading textAlign={'center'} textTransform={'uppercase'}>
-            Video Hub
+          Epic Games
           </Heading>
-          <Text>All right's received.</Text>
+          <Text>©All right's received.</Text>
         </VStack>
 
         <VStack w={'full'}>
