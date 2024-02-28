@@ -21,7 +21,7 @@ const headingOptions = {
 const Home = () => {
   return (
     <Box>
-      <MyCarousel />
+      <MyCarousel  />
       <Container minH={'100vh'} maxW={'container.xl'} p={'16'}>
         <Heading
           textTransform={'uppercase'}
@@ -46,7 +46,7 @@ const Home = () => {
             p={['4', '16']}
             textAlign={'center'}
           >
-          Epic Games, the 🚀 pioneers of virtual realms, offers an extraordinary spectrum of services that redefine digital entertainment 🎮. As the maestros behind the acclaimed Unreal Engine, they empower creators to sculpt immersive universes 🌌. Fortnite, their iconic battle royale, catapults players into riveting showdowns. Epic Games Store beckons with an ever-expanding galaxy of titles, fostering a vibrant gaming community. Their commitment to innovation is evident in the cutting-edge MetaHuman Creator, shaping the future of digital character creation. Dive into the metaverse with Epic Games, where every pixel pulses with creativity and every gamer discovers their epic adventure! 🌟
+          Epic Games, the 🚀 pioneers of virtual realms, offers an extraordinary spectrum of services that redefine digital entertainment 🎮. 
           </Text>
           
         </Stack>
@@ -63,6 +63,7 @@ const MyCarousel = () => (
     showStatus={false}
     showThumbs={false}
     showArrows={false}
+    dynamicHeight={true}
   >
     <Box w="full" h={'100vh'}>
       <Image src={img1} h="full" w={'full'} objectFit={'cover'} />
