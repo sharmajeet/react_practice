@@ -1,17 +1,19 @@
-import { Container, Text } from '@chakra-ui/react';
+import { Alert, AlertIcon, Container, Text } from '@chakra-ui/react';
 import React from 'react';
 
 const ErrorComponent = ({ message }) => {
   return (
-    <Container
-      h={'100vh'}
-      w={'100%'}
-      display={'flex'}
-      alignItems={'center'}
-      justifyContent={'center'}
+    <Alert
+      status="error"
+      position={'fixed'}
+      bottom={'4'}
+      left={'50%'}
+      transform={'translateX(-50%)'}
+      w={'container.lg'}
     >
-      <Text fontSize={['22' , '40']}>{message}</Text>
-    </Container>
+      <AlertIcon />
+      {message}
+    </Alert>
   );
 };
 
